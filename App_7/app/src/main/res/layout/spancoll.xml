@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/btn11"
+            android:gravity="center"
+            android:layout_width="0.0dip"
+            android:layout_height="100px"
+            android:layout_weight="1.0"
+            android:background="#F10606"
+            android:text="Row1"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.123"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.19"
+            app:rippleColor="#E80808" />
+    </TableRow>
+    <TableRow android:gravity="center">
+
+        <TextView android:gravity="center"
+            android:id="@+id/btn21"
+            android:layout_width="0.0dip"
+            android:layout_height="100px"
+            android:layout_weight="1.0"
+            android:background="#979090"
+            android:text="Row2 col1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.123"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.19" />
+
+        <TextView android:gravity="center"
+            android:id="@+id/btn22"
+            android:layout_width="0.0dip"
+            android:layout_height="100px"
+            android:background="#474343"
+            android:layout_weight="1.0"
+            android:text="Row2 col2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.123"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.19" />
+
+        <TextView android:gravity="center"
+            android:id="@+id/btn23"
+            android:layout_width="0.0dip"
+            android:layout_height="100px"
+            android:background="#979090"
+            android:layout_weight="1.0"
+            android:text="Row2 col3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.123"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.19" />
+    </TableRow>
+    <TableRow android:gravity="center">
+
+        <TextView android:gravity="center"
+            android:id="@+id/btn31"
+            android:layout_width="0.0dip"
+            android:layout_height="100px"
+            android:layout_weight="1.0"
+            android:text="Row3 col1"
+            android:background="#E6E608"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.123"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.19" />
+
+        <TextView android:gravity="center"
+            android:id="@+id/btn32"
+            android:layout_width="0.0dip"
+            android:layout_height="100px"
+            android:layout_weight="1.0"
+            android:text="Row3 col2"
+            android:background="#EDA46C"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.123"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.19" />
+    </TableRow>
+</TableLayout>
